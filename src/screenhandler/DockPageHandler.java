@@ -138,6 +138,7 @@ public class DockPageHandler{
             	return new SimpleStringProperty("twin e-bike");
             }
         });
+    	
     	price.setCellValueFactory(cellData -> {
             long deposit = cellData.getValue().getPrice();
             DecimalFormat formatter = new DecimalFormat("###,###,###");
